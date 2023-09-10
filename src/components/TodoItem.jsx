@@ -5,7 +5,7 @@ export const TodoItem = ({ title, completed, onDelete }) => {
   return (
     <li>
       {title}
-      <Checkbox />
+      <Checkbox onClick={completed} />
       <button onClick={onDelete}>delete</button>
     </li>
   );
