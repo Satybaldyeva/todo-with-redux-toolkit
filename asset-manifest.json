@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todo-with-redux-toolkit/static/css/main.073c9b0a.css",
+    "main.js": "/todo-with-redux-toolkit/static/js/main.803d24ce.js",
+    "index.html": "/todo-with-redux-toolkit/index.html",
+    "main.073c9b0a.css.map": "/todo-with-redux-toolkit/static/css/main.073c9b0a.css.map",
+    "main.803d24ce.js.map": "/todo-with-redux-toolkit/static/js/main.803d24ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.803d24ce.js"
+  ]
+}
