@@ -2,6 +2,7 @@ import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { TodoItem } from "./TodoItem";
 import { deleteTask } from "../redux/todosSlice";
+import styled from "styled-components";
 
 export const TodoList = () => {
   const { tasks = [] } = useSelector((state) => state.tasks);
@@ -12,7 +13,7 @@ export const TodoList = () => {
     dispatch(deleteTask(taskId));
   };
   return (
-    <ul>
+    <StyledUl>
       {tasks.map((item) => {
         return (
           <TodoItem
@@ -22,6 +23,12 @@ export const TodoList = () => {
           />
         );
       })}
-    </ul>
+    </StyledUl>
   );
 };
+
+const StyledUl = styled("ul")`
+  width: 80%;
+
+  margin: 0 auto;
+`;
